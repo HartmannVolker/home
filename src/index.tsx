@@ -1,7 +1,10 @@
-import {h, render} from "preact"
+import { h, render } from "preact"
+import "./style.css"
 
 const App = () => (
-  <div>Volker Schiewe</div>
+  <div class="container">
+    <h1 class="text-sans text-4xl">Volker Schiewe</h1>
+  </div>
 );
 
-render(App(), document.getElementById("root"))
+render(App(), document.getElementById("root"));

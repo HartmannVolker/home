@@ -8,6 +8,7 @@ module.exports = {
         publicPath: "/build",
         hot: true
     },
+    mode: process.env.NODE_ENV || "development",
     module: {
         rules: [
             {
@@ -15,6 +16,10 @@ module.exports = {
                 use: 'ts-loader',
                 exclude: /node_modules/,
             },
+            {
+                test: /\.css$/,
+                use: [ 'style-loader', 'postcss-loader' ]
+            }
         ],
     },
     resolve: {
