@@ -4,9 +4,10 @@
   "description": "Homepage of Volker Schiewe",
   "scripts": {
     "start": "webpack-dev-server --open",
-    "build": "env NODE_ENV=production webpack",
+    "build": "yarn clean && env NODE_ENV=production webpack",
     "build:dev": "webpack",
-    "deploy": "yarn build && firebase deploy"
+    "deploy": "yarn build && firebase deploy",
+    "clean": "rm -rf public/build"
   },
   "repository": {
     "type": "git",
