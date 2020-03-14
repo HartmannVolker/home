@@ -4,7 +4,7 @@ import "./style.css"
 import "./animation.css"
 
 const App = () => (
-  <div className="w-screen h-screen flex flex-col">
+  <div className="w-screen h-screen background-gradient flex flex-col">
     <div className="flex flex-col justify-center items-center flex-1">
       <h1 className="text-sans text-6xl font-semibold text-center">Volker Schiewe</h1>
       <div id="sub-title-wrapper">

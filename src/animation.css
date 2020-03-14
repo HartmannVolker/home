@@ -21,7 +21,7 @@
 
 
 /* Background */
-body {
+.background-gradient {
     background: linear-gradient(225deg, #26a69a, #42a5f5, #7e57c2);
     background-size: 200% 200%;
     animation: gardient 40s ease infinite;
