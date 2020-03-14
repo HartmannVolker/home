@@ -1,3 +1,5 @@
+/* Subtitle */
+
 #sub-title-wrapper {
     overflow: hidden;
     white-space: nowrap;
@@ -15,4 +17,18 @@
     100% {
         margin-left: 0;
     }
+}
+
+
+/* Background */
+body {
+    background: linear-gradient(225deg, #26a69a, #42a5f5, #7e57c2);
+    background-size: 200% 200%;
+    animation: gardient 40s ease infinite;
+}
+
+@keyframes gardient {
+    0%{background-position:90% 0%}
+    50%{background-position:10% 100%}
+    100%{background-position:90% 0%}
 }
