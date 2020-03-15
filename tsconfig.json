@@ -2,12 +2,30 @@
   "compilerOptions": {
     "outDir": "./public/build/",
     "noImplicitAny": false,
-    "module": "es6",
+    "module": "esnext",
     "target": "es5",
-    "jsx": "react",
-    "jsxFactory": "h"
+    "jsx": "preserve",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true
   },
   "exclude": [
     "functions"
+  ],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
   ]
 }
