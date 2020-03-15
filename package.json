@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Homepage of Volker Schiewe",
   "scripts": {
-    "start": "postcss src/**/*.css --dir public/build -w",
+    "start": "http-server public & postcss src/**/*.css --dir public/build -w",
     "build": "env NODE_ENV=production postcss src/**/*.css --dir public/build",
     "clean": "rm -rf public/build"
   },
@@ -16,10 +16,10 @@
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^2.1.0",
     "autoprefixer": "^9.7.4",
+    "http-server": "^0.12.1",
     "postcss-cli": "^7.1.0",
     "postcss-import": "^12.0.1",
     "tailwindcss": "^1.2.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
