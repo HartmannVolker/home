@@ -28,7 +28,30 @@
 }
 
 @keyframes gardient {
-    0%{background-position:90% 0%}
-    50%{background-position:10% 100%}
-    100%{background-position:90% 0%}
+    0% {
+        background-position: 90% 0%
+    }
+    50% {
+        background-position: 10% 100%
+    }
+    100% {
+        background-position: 90% 0%
+    }
+}
+
+/* Icons */
+.icon {
+    animation: fadein 1.5s ease-in;
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    66% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
