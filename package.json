@@ -5,7 +5,8 @@
   "scripts": {
     "start": "tsc -w & postcss src/**/*.css --dir public/build -w & http-server public",
     "build": "env NODE_ENV=production postcss src/**/*.css --dir public/build & tsc",
-    "clean": "rm -rf public/build"
+    "clean": "rm -rf public/build",
+    "deploy": "yarn build && firebase deploy"
   },
   "repository": {
     "type": "git",
@@ -16,6 +17,7 @@
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^2.1.0",
     "autoprefixer": "^9.7.4",
+    "firebase-tools": "^7.15.1",
     "http-server": "^0.12.1",
     "postcss-cli": "^7.1.0",
     "postcss-import": "^12.0.1",
