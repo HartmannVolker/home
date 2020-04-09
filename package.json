@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Homepage of Volker Schiewe",
   "scripts": {
-    "start": "tsc -w --preserveWatchOutput & postcss src/**/*.css --dir public/build -w & http-server public",
+    "start": "tsc -w --preserveWatchOutput & postcss src/**/*.css --dir public/build -w & http-server public -p 3000",
     "build": "env NODE_ENV=production postcss src/**/*.css --dir public/build & tsc",
     "clean": "rm -rf public/build",
     "deploy": "yarn build && firebase deploy"
