@@ -1,4 +1,4 @@
-console.log("Locking for the source code?\nhttps://github.com/VolkerSchiewe/home")
+console.log("Looking for the source code?\nhttps://github.com/VolkerSchiewe/home")
 
 window.addEventListener('beforeinstallprompt', (e) => {
   // Prevent the mini-infobar from appearing on mobile

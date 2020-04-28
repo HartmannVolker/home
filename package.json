@@ -6,6 +6,7 @@
     "start": "tsc -w --preserveWatchOutput & postcss src/**/*.css --dir public/build -w & http-server public -p 3000",
     "build": "env NODE_ENV=production postcss src/**/*.css --dir public/build & tsc",
     "clean": "rm -rf public/build",
+    "serve": "yarn build && firebase serve",
     "deploy": "yarn build && firebase deploy"
   },
   "repository": {
@@ -20,12 +21,10 @@
     "autoprefixer": "^9.7.6",
     "cssnano": "^4.1.10",
     "firebase-tools": "^8.0.2",
-    "http-server": "^0.12.1",
     "postcss-cli": "^7.1.0",
     "postcss-import": "^12.0.1",
     "tailwindcss": "^1.2.0",
     "typescript": "^3.8.3"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }

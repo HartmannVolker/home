@@ -7,6 +7,6 @@ importScripts('https://storage.googleapis.com/workbox-cdn/releases/5.0.0/workbox
     .forEach(mask => {
         workbox.routing.registerRoute(
             new RegExp(mask),
-            new workbox.strategies.NetworkFirst( { cacheName: 'dynamic' } )
+            new workbox.strategies.StaleWhileRevalidate( { cacheName: 'dynamic' } )
         );
     });
