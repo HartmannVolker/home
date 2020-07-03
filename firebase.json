@@ -23,6 +23,10 @@
            {
             "key": "Content-Security-Policy",
             "value": "script-src 'self'"
+          },
+           {
+            "key": "Feature-Policy",
+            "value": "fullscreen 'self'"
           }
         ]
       }
