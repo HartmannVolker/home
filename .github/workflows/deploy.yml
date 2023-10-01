@@ -32,8 +32,9 @@ jobs:
       - name: Build
         run: yarn build
 
-      - name: Deploy
-        if: github.ref == 'refs/heads/main'
-        run: yarn deploy
-        env:
-          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+      - uses: FirebaseExtended/action-hosting-deploy@v0
+        # if: github.ref == 'refs/heads/main'
+        with:
+          repoToken: '${{ secrets.GITHUB_TOKEN }}'
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_HOME_A6153 }}'
+          projectId: home-a6153
