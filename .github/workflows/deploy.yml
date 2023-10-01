@@ -33,7 +33,7 @@ jobs:
         run: yarn build
 
       - name: Deploy
-        if: github.ref == 'refs/heads/master'
+        if: github.ref == 'refs/heads/main'
         run: yarn deploy
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
