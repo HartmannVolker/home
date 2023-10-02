@@ -33,6 +33,7 @@ jobs:
         run: yarn build
 
       - name: 'Authenticate to Google Cloud'
+        id: google_auth
         uses: 'google-github-actions/auth@v1'
         with:
           credentials_json: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_HOME_A6153 }}'
@@ -41,4 +42,4 @@ jobs:
         # if: github.ref == 'refs/heads/master'
         run: yarn deploy
         env:
-          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+          GOOGLE_APPLICATION_CREDENTIALS: ${{ steps.google_auth.outputs.credentials_file_path }}
