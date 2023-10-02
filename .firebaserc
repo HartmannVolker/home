@@ -1,5 +1,7 @@
 {
   "projects": {
     "default": "home-a6153"
-  }
+  },
+  "targets": {},
+  "etags": {}
 }

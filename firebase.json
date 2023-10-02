@@ -20,19 +20,19 @@
             "key": "X-Frame-Options",
             "value": "sameorigin"
           },
-           {
+          {
             "key": "Content-Security-Policy",
             "value": "script-src 'self' https://storage.googleapis.com/workbox-cdn/releases/5.0.0/"
           },
-           {
+          {
             "key": "Feature-Policy",
             "value": "fullscreen 'self'"
           },
-           {
+          {
             "key": "X-Content-Type-Options",
             "value": "nosniff"
           },
-           {
+          {
             "key": "Referrer-Policy",
             "value": "same-origin"
           }
