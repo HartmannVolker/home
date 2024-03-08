@@ -108,3 +108,5 @@ build
 .idea
 .firebase
 lib
+
+.DS_Store
