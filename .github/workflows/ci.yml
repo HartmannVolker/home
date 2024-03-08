@@ -1,10 +1,10 @@
-name: Deploy main
+name: CI
 
 on:
   push
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
