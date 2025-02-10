@@ -16,7 +16,7 @@
   "author": "Volker Schiewe <volker@schiewe.dev>",
   "license": "MIT",
   "devDependencies": {
-    "@types/node": "^22.13.0",
+    "@types/node": "^22.13.1",
     "autoprefixer": "^10.4.20",
     "firebase-tools": "^13.30.0",
     "http-server": "^14.0.0",
