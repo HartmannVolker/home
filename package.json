@@ -18,7 +18,7 @@
   "devDependencies": {
     "@types/node": "^22.13.1",
     "autoprefixer": "^10.4.20",
-    "firebase-tools": "^13.30.0",
+    "firebase-tools": "^13.31.1",
     "http-server": "^14.0.0",
     "postcss": "^8.5.1",
     "postcss-cli": "^11.0.0",
