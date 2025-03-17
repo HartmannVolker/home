@@ -21,7 +21,7 @@
     "firebase-tools": "^13.34.0",
     "http-server": "^14.0.0",
     "postcss": "^8.5.3",
-    "postcss-cli": "^11.0.0",
+    "postcss-cli": "^11.0.1",
     "tailwindcss": "^4.0.14",
     "typescript": "^5.8.2"
   },
