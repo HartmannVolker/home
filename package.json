@@ -17,7 +17,7 @@
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^25.3.0",
-    "autoprefixer": "^10.4.24",
+    "autoprefixer": "^10.4.27",
     "firebase-tools": "^15.8.0",
     "http-server": "^14.0.0",
     "postcss": "^8.5.6",
