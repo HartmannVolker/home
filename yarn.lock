@@ -1961,10 +1961,10 @@ finalhandler@^2.1.0:
     parseurl "^1.3.3"
     statuses "^2.0.1"
 
-firebase-tools@^15.12.0:
-  version "15.12.0"
-  resolved "https://registry.yarnpkg.com/firebase-tools/-/firebase-tools-15.12.0.tgz#952227be2bed34a256b1a69485d10240dc783297"
-  integrity sha512-/7zGgP+RovsIfzXIMRvv9K9q5/50GAkR2uwkbNYQqUcM/qCRRPvdtSKSf143c9NGQ/pQlSHqOoPco1b9ls1aRQ==
+firebase-tools@^15.13.0:
+  version "15.13.0"
+  resolved "https://registry.yarnpkg.com/firebase-tools/-/firebase-tools-15.13.0.tgz#4397270af5f9f0b846aa690085abb65b0dbc63d1"
+  integrity sha512-ZEA3ESYScgYhRv7icyQb9fB7IXWeIDEwLtHSCesuvQLUbSzEaOxowThsp8koPN8T7TT5k3RFa3pKpGUSZeeHSA==
   dependencies:
     "@apphosting/build" "^0.1.7"
     "@apphosting/common" "^0.0.8"
@@ -2006,7 +2006,7 @@ firebase-tools@^15.12.0:
     jsonwebtoken "^9.0.2"
     leven "^3.1.0"
     libsodium-wrappers "^0.7.10"
-    lodash "^4.17.21"
+    lodash "^4.18.0"
     lsofi "1.0.0"
     marked "^13.0.2"
     marked-terminal "^7.0.0"
@@ -3046,7 +3046,7 @@ lodash.snakecase@^4.1.1:
   resolved "https://registry.yarnpkg.com/lodash.snakecase/-/lodash.snakecase-4.1.1.tgz#39d714a35357147837aefd64b5dcbb16becd8f8d"
   integrity sha512-QZ1d4xoBHYUeuouhEq3lk3Uq7ldgyFXGBhg04+oRLnIz8o9T65Eh+8YdroUwn846zchkA9yDsDl5CVVaV2nqYw==
 
-lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.21:
+lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.21, lodash@^4.18.0:
   version "4.18.1"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.18.1.tgz#ff2b66c1f6326d59513de2407bf881439812771c"
   integrity sha512-dMInicTPVE8d1e5otfwmmjlxkZoUpiVLwyeTdUsi/Caj/gfzzblBcCE5sRHV/AsjuCmxWrte2TNGSYuCeCq+0Q==
