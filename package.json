@@ -20,7 +20,7 @@
     "autoprefixer": "^10.5.0",
     "firebase-tools": "^15.15.0",
     "http-server": "^14.0.0",
-    "postcss": "^8.5.10",
+    "postcss": "^8.5.12",
     "postcss-cli": "^11.0.1",
     "tailwindcss": "^4.2.2",
     "typescript": "^5.9.3"
