@@ -1845,10 +1845,10 @@ finalhandler@^2.1.0:
     parseurl "^1.3.3"
     statuses "^2.0.1"
 
-firebase-tools@^15.23.0:
-  version "15.23.0"
-  resolved "https://registry.yarnpkg.com/firebase-tools/-/firebase-tools-15.23.0.tgz#6023078b9e1974c3f2fdc0c02e084cfe105ef082"
-  integrity sha512-YIu1w84GiJAoQfCDBvrK77Qnu19sh00YufGvrWLc9kus9p8j5NkFOGfSpIAiEHu5VliTZUqBhqDwA/i7fuN0GQ==
+firebase-tools@^15.24.0:
+  version "15.24.0"
+  resolved "https://registry.yarnpkg.com/firebase-tools/-/firebase-tools-15.24.0.tgz#9ebdc2004152cabf8c44bf4a57b11b6a9f109c39"
+  integrity sha512-2P5qd3O3YD7a7AaA89lt/zgRIgR7FGS0Ye7fW9z/sNt9/b6cbmI1TtQtYDlmJDUOh9nMk+72ll/gu4MlN/qY7Q==
   dependencies:
     "@apphosting/common" "^0.0.8"
     "@electric-sql/pglite" "^0.3.3"
